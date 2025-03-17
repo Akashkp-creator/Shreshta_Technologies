@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- metas -->
+    <meta charset="utf-8" />
+    <meta name="author" content="Shreshta Technologies" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="keywords" content="Network & Security Consulting Services" />
+    <meta
+      name="description"
+      content="Shreshta Technologies - Network & Security Consulting Services"
+    />
+
+    <!-- title  -->
+    <title>
+      Shreshta Technologies - Network & Security Consulting Services
+    </title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/logos/favicon.png" />
+    <link rel="apple-touch-icon" href="img/logos/apple-touch-icon-57x57.png" />
+    <!-- <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="img/logos/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="img/logos/apple-touch-icon-114x114.png"
+    /> -->
+
+    <style>
+      /* body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f4f4f4;
+      } */
+      /* .container {
+        width: 80%;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+      } */
+      /* .serviceimg {
+        width: 400px;
+        height: 400px;
+        object-fit: cover; 
+        border-radius: 10px; 
+      } */
+      html {
+        scroll-behavior: smooth;
+        /* scroll-padding: 1rem; */
+      }
+
+      .cardgrid {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        /* align-items: start; */
+      }
+
+      .card {
+        font-size: 0.6rem;
+        font-weight: bold;
+        background: #87ceeb !important;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 15rem !important;
+        height: auto;
+        text-align: center;
+        position: relative;
+        transition: transform 0.1s ease-out, box-shadow 0.3s ease-in-out;
+        transform-style: preserve-3d;
+      }
+
+      /* Glowing border effect */
+      .card:hover {
+        box-shadow: 0 10px 30px rgba(0, 170, 255, 0.6) !important;
+        border: 2px solid rgba(255, 255, 255, 0.8);
+      }
+
+      /* Card title */
+      .card h2 {
+        font-size: 1rem;
+        font-weight: 900;
+        color: #fff;
+        margin-bottom: 15px;
+        position: relative;
+        z-index: 1;
+      }
+
+      /* List items */
+      .card ul {
+        list-style-type: none;
+        padding: 0;
+        position: relative;
+        z-index: 1;
+      }
+
+      .card ul li {
+        background: rgba(255, 255, 255, 0.9);
+        margin: 8px 0;
+        padding: 10px;
+        border-radius: 5px;
+        color: #333;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      /* Slight hover animation on list items */
+      .card:hover ul li {
+        transform: scale(1.05);
+        font-weight: bolder;
+      }
+
+      /* footer css */
+      .foogrid img {
+        /* display: flex; */
+        display: block;
+      }
+      .foogrid {
+        /* background: white; */
+        /* z-index: 999 !important; */
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+      }
+      .soci {
+        margin-top: -2rem;
+        margin-bottom: 2rem;
+        /* margin-bottom: 1.5rem !important; */
+        height: 3rem;
+        display: grid;
+        gap: 5rem;
+        grid-template-columns: 1fr auto;
+        /* place-items: center; */
+        justify-content: space-between;
+      }
+
+      @media screen and (max-width: 570px) {
+        .soci {
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+      }
+      @media screen and (max-width: 990px) {
+        .foogrid {
+          grid-template-columns: 1fr;
+          place-items: center;
+        }
+      }
+
+      /* for skills and certification */
+      .secski {
+        margin-bottom: 1rem;
+        height: 35rem;
+      }
+      .sepdiv {
+        display: grid;
+        grid-template-columns: 50% 1fr;
+        /* height: 10rem; */
+        margin-bottom: 1rem;
+      }
+      .certification {
+        color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: repeat(auto-fit,minmax(150px,1fr)); */
+      }
+      .certification ul li {
+        list-style-type: none;
+      }
+      .nohead {
+        font-size: 3rem;
+        letter-spacing: 3px;
+      }
+      .headerexp {
+        font-size: 1.7rem;
+        /* margin-top: -0.3rem; */
+      }
+      .spacer {
+        /* display: grid; */
+        grid-column: span 2;
+        place-content: center;
+        place-items: center;
+      }
+      .unorli {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .fullthingupper {
+        /* background: #000; */
+        display: grid;
+        place-content: center;
+        place-items: center;
+      }
+      @media screen and (max-width: 1109px) {
+        .cardgrid {
+          grid-template-columns: 1fr 1fr 1fr;
+          place-items: start;
+        }
+        /* .card h2{
+          font-size: 2rem;
+        }
+        .card li{
+          font-size: 1.5rem;
+        }
+        .card{
+          width: 90% !important;
+        } */
+      }
+      @media screen and (max-width: 950px) {
+        .cardgrid {
+          grid-template-columns: 1fr 1fr;
+          place-items: start;
+        }
+        /* .card h2{
+          font-size: 2rem;
+        }
+        .card li{
+          font-size: 1.5rem;
+        }
+        .card{
+          width: 90% !important;
+        } */
+      }
+      @media screen and (max-width: 669px) {
+        .cardgrid {
+          grid-template-columns: 1fr;
+          place-items: center;
+        }
+        .card h2 {
+          font-size: 1.2rem;
+        }
+        .card li {
+          font-size: 0.7rem;
+        }
+        .card {
+          width: 90% !important;
+        }
+      }
+      @media screen and (max-width: 450px) {
+        .cardgrid {
+          grid-template-columns: 1fr;
+          place-items: center;
+        }
+        .card h2 {
+          font-size: 1rem;
+        }
+        .card li {
+          font-size: 0.8rem;
+        }
+        .card {
+          width: 95% !important;
+        }
+      }
+      @media screen and (max-width: 1200px) {
+        .sepdiv {
+          grid-template-columns: 1fr;
+          place-items: center;
+          place-content: center;
+          text-align: center;
+          height: auto;
+        }
+        .secski {
+          height: 50rem;
+        }
+      }
+
+      /* our clients section */
+
+      .ourcli {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+        text-align: center;
+      }
+      .clients-section {
+        padding: 50px 20px;
+        background: #ffffff;
+      }
+      .clients-section h2 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #333;
+      }
+      .clients-logos {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .clients-logos img {
+        width: 120px;
+        height: auto;
+        transition: transform 0.3s ease;
+        animation: bounce 3s infinite ease-in-out;
+      }
+
+      /* Staggered Animation Delay */
+      .clients-logos img:nth-child(1) {
+        animation-delay: 0s;
+      }
+      .clients-logos img:nth-child(2) {
+        animation-delay: 0.3s;
+      }
+      .clients-logos img:nth-child(3) {
+        animation-delay: 0.6s;
+      }
+      .clients-logos img:nth-child(4) {
+        animation-delay: 0.9s;
+      }
+
+      /* Bounce Animation */
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-15px);
+        }
+      }
+
+      /* @media screen and (max-width: 830px) {
+        .cardgrid {
+          grid-template-columns: 1fr;
+          place-items: center;
+          font-weight: normal;
+         
+          
+        }
+        .card{
+          width: 90% !important;
+        }
+      } */
+      /* contact us */
+      .conhed {
+        color: #fff;
+      }
+    </style>
+
+    <!-- plugins -->
+    <link rel="stylesheet" href="css/plugins.css" />
+
+    <!-- search css -->
+    <link rel="stylesheet" href="search/search.css" />
+
+    <!-- quform css -->
+    <link rel="stylesheet" href="quform/css/base.css" />
+
+    <!-- theme core css -->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- PAGE LOADING
+    ================================================== -->
+    <div id="preloader"></div>
+
+    <!-- MAIN WRAPPER
+    ================================================== -->
+    <div class="main-wrapper">
+      <!-- HEADER
+        ================================================== -->
+      <header class="header-style1 menu_area-light">
+        <div class="navbar-default">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-6 col-lg-3">
+                <div class="navbar-header navbar-header-custom">
+                  <!-- start logo -->
+                  <a href="index.html" class="navbar-brand">
+                    <img
+                      id="logo"
+                      src="img/logos/Shreshta_Technologies-01-BG removed (1).png"
+                      alt="Shreshta"
+                      class="img-fluid"
+                      style="background: white"
+                    />
+                  </a>
+                  <!-- end logo -->
+                </div>
+              </div>
+              <div class="col-6 col-lg-9">
+                <div class="menu_area alt-font">
+                  <nav
+                    class="navbar navbar-expand-lg navbar-light p-0 justify-content-end"
+                  >
+                    <div class="navbar-toggler"></div>
+
+                    <!-- menu area -->
+                    <ul class="navbar-nav" id="nav">
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="#about">ABOUT US</a></li>
+                      <li><a href="#client">CLIENTS</a></li>
+                      <li><a href="#contactus">CONTACT</a></li>
+                    </ul>
+                    <!-- end menu area -->
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Rest of the content remains unchanged -->
+
+      <!-- BANNER
+        ================================================== -->
+      <div class="top-position1 z-index-1">
+        <div class="slider-fade banner1" style="max-height: 950px">
+          <div class="owl-carousel owl-theme w-100">
+            <div
+              class="text-center item bg-img primary-overlay"
+              data-overlay-dark="8"
+              data-background="img/banner/banner-01.jpg"
+              style="height: 850px"
+            >
+              <div class="container h-100">
+                <div class="d-table h-100 w-100">
+                  <div class="d-table-cell align-middle caption">
+                    <div class="overflow-hidden w-95 w-md-85 w-lg-80">
+                      <h3 class="alt-font text-secondary">
+                        <span class="me-2">//</span>Network & Security Solutions
+                      </h3>
+                      <h1
+                        class="text-white w-lg-90 w-xl-80 w-xxl-70 mx-auto"
+                        style="font-size: 2.5rem"
+                      >
+                        Secure, <span class="stroke">Optimize</span>, and Manage
+                        Your IT Infrastructure
+                      </h1>
+                      <p class="w-90 w-xl-60 mx-auto d-none d-md-block">
+                        Protecting your business with enterprise-grade security
+                        solutions and expert consulting services.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-center item bg-img primary-overlay"
+              data-overlay-dark="8"
+              data-background="img/banner/banner-02.jpg"
+              style="height: 850px"
+            >
+              <div class="container h-100">
+                <div class="d-table h-100 w-100">
+                  <div class="d-table-cell align-middle caption">
+                    <div class="overflow-hidden w-95 w-md-85 w-lg-80">
+                      <h3 class="alt-font text-secondary">
+                        <span class="me-2">//</span>Cybersecurity Experts
+                      </h3>
+                      <h1
+                        class="text-white w-lg-90 w-xl-80 w-xxl-70 mx-auto"
+                        style="font-size: 2.5rem"
+                      >
+                        Protecting your<span class="stroke">
+                          digital assets</span
+                        >
+                        24/7
+                      </h1>
+                      <p class="w-90 w-xl-60 mx-auto d-none d-md-block">
+                        Comprehensive security solutions tailored to your
+                        business needs with proactive monitoring.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-center item bg-img primary-overlay"
+              data-overlay-dark="8"
+              data-background="img/banner/banner-03.jpg"
+              style="height: 850px"
+            >
+              <div class="container h-100">
+                <div class="d-table h-100 w-100">
+                  <div class="d-table-cell align-middle caption">
+                    <div class="overflow-hidden w-95 w-md-85 w-lg-80">
+                      <h3 class="alt-font text-secondary">
+                        <span class="me-2">//</span>Enterprise Solutions
+                      </h3>
+                      <h1 class="text-white w-lg-90 w-xl-80 w-xxl-70 mx-auto">
+                        Protecting your<span class="stroke">
+                          digital assets</span
+                        >
+                        24/7
+                      </h1>
+                      <p class="w-90 w-xl-60 mx-auto d-none d-md-block">
+                        Comprehensive security solutions tailored to your
+                        business needs with proactive monitoring.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-center item bg-img primary-overlay"
+              data-overlay-dark="8"
+              data-background="img/banner/banner-03.jpg"
+            >
+              <div class="container h-100 w-100">
+                <div class="d-table h-100 w-100">
+                  <div class="d-table-cell align-middle caption">
+                    <div class="overflow-hidden w-95 w-md-85 w-lg-80">
+                      <h3 class="alt-font text-secondary">
+                        <span class="me-2">//</span>Enterprise Solutions
+                      </h3>
+                      <h1 class="text-white w-lg-90 w-xl-80 w-xxl-70 mx-auto">
+                        Elevate your network<span class="stroke">
+                          security posture</span
+                        >
+                      </h1>
+                      <p class="w-90 w-xl-60 mx-auto d-none d-md-block">
+                        Strategic security consulting and implementation
+                        services for businesses of all sizes.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- INFO / SERVICES
+        ================================================== -->
+      <section class="info-style-01 py-5">
+        <div class="container">
+          <div class="section-heading mb-5">
+            <span class="alt-font sub-title"
+              ><span class="me-2">//</span>Our Services<span class="ms-2"
+                >//</span
+              ></span
+            >
+            <h2>
+              Comprehensive
+              <span class="text-primary">Security Solutions</span>
+            </h2>
+          </div>
+          <div class="row mt-n1-9 justify-content-center">
+            <div class="col-sm-6 col-lg-3 mt-1-9">
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <div class="d-table-cell align-middle">
+                      <img
+                        class="mb-4"
+                        src="img/icons/icon-03.png"
+                        alt="Network Security"
+                      />
+                      <h4 class="mb-0 font-weight-500">Network Security</h4>
+                    </div>
+                  </div>
+                  <div class="flip-box-back">
+                    <div class="d-table-cell align-middle">
+                      <h4 class="mb-3 text-white">Network Security</h4>
+                      <p class="text-white w-90 w-xl-80 mx-auto mb-3 opacity9">
+                        Secure LAN/WAN architecture, next-gen firewalls, and
+                        enterprise WiFi solutions.
+                      </p>
+                      <a class="link-btn white" href="network-security.html"
+                        ><span class="link-text">Read More</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mt-1-9">
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <div class="d-table-cell align-middle">
+                      <img
+                        class="mb-4"
+                        src="img/icons/icon-01.png"
+                        alt="IT Infrastructure"
+                      />
+                      <h4 class="mb-0 font-weight-500">IT Infrastructure</h4>
+                    </div>
+                  </div>
+                  <div class="flip-box-back">
+                    <div class="d-table-cell align-middle">
+                      <h4 class="mb-3 text-white">IT Infrastructure</h4>
+                      <p class="text-white w-90 w-xl-80 mx-auto mb-3 opacity9">
+                        On-premises and cloud infrastructure services with Azure
+                        and AWS integration.
+                      </p>
+                      <a class="link-btn white" href="it-infrastructure.html"
+                        ><span class="link-text">Read More</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mt-1-9">
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <div class="d-table-cell align-middle">
+                      <img
+                        class="mb-4"
+                        src="img/icons/icon-02.png"
+                        alt="Cloud Services"
+                      />
+                      <h4 class="mb-0 font-weight-500">Cloud Services</h4>
+                    </div>
+                  </div>
+                  <div class="flip-box-back">
+                    <div class="d-table-cell align-middle">
+                      <h4 class="mb-3 text-white">Cloud Services</h4>
+                      <p class="text-white w-90 w-xl-80 mx-auto mb-3 opacity9">
+                        Secure cloud migration, compliance management, and
+                        hybrid cloud solutions.
+                      </p>
+                      <a class="link-btn white" href="cloud-services.html"
+                        ><span class="link-text">Read More</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mt-1-9">
+              <div class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <div class="d-table-cell align-middle">
+                      <img
+                        class="mb-4"
+                        src="img/icons/icon-04.png"
+                        alt="IT Consultancy"
+                      />
+                      <h4 class="mb-0 font-weight-500">IT Consultancy</h4>
+                    </div>
+                  </div>
+                  <div class="flip-box-back">
+                    <div class="d-table-cell align-middle">
+                      <h4 class="mb-3 text-white">IT Consultancy</h4>
+                      <p class="text-white w-90 w-xl-80 mx-auto mb-3 opacity9">
+                        Security training, VA/PT testing, and ISO certification
+                        assistance.
+                      </p>
+                      <a class="link-btn white" href="it-consultancy.html"
+                        ><span class="link-text">Read More</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT US
+        ================================================== -->
+      <!-- ABOUT US
+        ================================================== -->
+      <section class="about-style-01" id="about">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <div class="mt-1-9">
+                <div class="row g-0 align-items-center">
+                  <div class="col-8">
+                    <div class="image1">
+                      <img src="img/content/cisco11.jfif" alt="..." />
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="image2">
+                      <img src="img/content/cisco.jfif" alt="..." />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 ps-lg-2-5 ps-xl-7">
+              <h6 class="text-secondary display-28 mb-3">
+                <span class="me-2">//</span>About Us
+              </h6>
+              <h2 class="h1 mb-4">
+                Team Shreshta has 22+ Years of Experience in
+                <span class="text-primary">Networking & Network Security</span>
+              </h2>
+              <p class="mb-1-9">
+                At Shreshta Technologies, we've been safeguarding businesses
+                with cutting-edge network security solutions for over two
+                decades. Our team of certified security experts delivers
+                tailored IT infrastructure management, advanced threat
+                protection, and cloud security services that evolve with your
+                business needs.
+              </p>
+              <div
+                class="row borders-bottom pb-4 mb-1-9 border-color-extra-light-gray"
+              >
+                <div class="col-sm-6 mb-3 mb-md-0">
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <div class="mt-2">
+                        <i class="ti-shield text-secondary fs-1"></i>
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h4 class="h5 mb-0">Security Expertise</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <div class="mt-2">
+                        <i class="ti-cloud text-secondary fs-1"></i>
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h4 class="h5 mb-0">Cloud Services</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICE
+        ================================================== -->
+      <section class="bg-light">
+        <div class="container">
+          <div class="section-heading">
+            <span class="alt-font sub-title"
+              ><span class="me-2">//</span> Services<span class="ms-2"
+                >//</span
+              ></span
+            >
+            <h2>
+              We Deliver we provide
+              <span class="text-primary">truly prominent IT solutions.</span>
+            </h2>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-12 text-center">
+              <div class="container">
+                <div class="cardgrid">
+                  <div class="card" id="card">
+                    <h2>Network Security, IT Infrastructure</h2>
+                    <ul>
+                      <li>
+                        ✔ Build secure LAN, WAN, firewall, and WiFi solutions.
+                      </li>
+                      <li>
+                        ✔ Manage IT infrastructure, on-premises data centers,
+                        cloud services (Azure, AWS).
+                      </li>
+                      <li>
+                        ✔ Remote management and monitoring of IT and security
+                        infrastructure.
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card" id="card">
+                    <h2>Security & IT Consultancy Services</h2>
+                    <ul>
+                      <li>✔ Rental services (Switches, Routers, Firewalls).</li>
+                      <li>✔ Trainings (Network, Cyber Security).</li>
+                      <li>
+                        ✔ VA/PT (Vulnerability Assessment & Penetration Testing)
+                        for cloud & on-prem.
+                      </li>
+                      <li>✔ ISO Certification & Customized Training.</li>
+                    </ul>
+                  </div>
+                  <div class="card" id="card">
+                    <h2>Cloud Platforms</h2>
+                    <ul>
+                      <li>✔ Remote IT management and monitoring.</li>
+                      <li>✔ Implement industry-standard solutions.</li>
+                      <li>✔ Transform/migrate data centers to the cloud.</li>
+                      <li>✔ Enhance IT support & secure monitoring.</li>
+                    </ul>
+                  </div>
+                  <div class="card" id="card">
+                    <h2>Secure Network Services</h2>
+                    <ul>
+                      <li>
+                        ✔ Protect networks & business-critical applications.
+                      </li>
+                      <li>
+                        ✔ Vulnerability assessments & penetration testing.
+                      </li>
+                      <li>✔ Compliance for ISO certification.</li>
+                      <li>✔ Risk management & assessment.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW WE WORK
+        ================================================== -->
+      <section>
+        <div class="container">
+          <div class="section-heading">
+            <span class="alt-font sub-title"
+              ><span class="me-2">//</span>How we works<span class="ms-2"
+                >//</span
+              ></span
+            >
+            <h2>
+              How it helps
+              <span class="text-primary">your business succeed</span>
+            </h2>
+          </div>
+          <div class="row mt-n1-9">
+            <div class="col-sm-6 col-lg-3 mt-2-2">
+              <div class="process-style1">
+                <div class="process-number-wrap">
+                  <div class="process-number">01</div>
+                </div>
+                <div class="text-center box-shadows p-1-6 p-xl-1-9">
+                  <h4 class="mb-3">Discovery</h4>
+                  <p class="mb-0 w-sm-95 mx-auto">
+                    we are assist of your enterprise for increase and
+                    successful.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mt-2-2">
+              <div class="process-style1">
+                <div class="process-number-wrap">
+                  <div class="process-number">02</div>
+                </div>
+                <div class="text-center box-shadows p-1-6 p-xl-1-9">
+                  <h4 class="mb-3">Discussion</h4>
+                  <p class="mb-0 w-sm-95 mx-auto">
+                    we are assist of your enterprise for increase and
+                    successful.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mt-2-2">
+              <div class="process-style1">
+                <div class="process-number-wrap">
+                  <div class="process-number">03</div>
+                </div>
+                <div class="text-center box-shadows p-1-6 p-xl-1-9">
+                  <h4 class="mb-3">Evaluate</h4>
+                  <p class="mb-0 w-sm-95 mx-auto">
+                    we are assist of your enterprise for increase and
+                    successful.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mt-2-2">
+              <div class="process-style1 last">
+                <div class="process-number-wrap">
+                  <div class="process-number">04</div>
+                </div>
+                <div class="text-center box-shadows p-1-6 p-xl-1-9">
+                  <h4 class="mb-3">Execute</h4>
+                  <p class="mb-0 w-sm-95 mx-auto">
+                    we are assist of your enterprise for increase and
+                    successful.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COUNTER
+        ================================================== -->
+      <section
+        class="bg-img cover-background primary-overlay parallax secski"
+        data-overlay-dark="9"
+        data-background="img/bg/bg-02.jpg"
+      >
+        <div class="container sepdiv">
+          <div class="counter-number">
+            <span class="countup">22</span>
+            <h4 class="letter-spacing-5 text-white mb-0">
+              Years Of Experience
+            </h4>
+          </div>
+
+          <div class="certification">
+            <div class="fullthingupper">
+              <p class="nohead">12</p>
+              <p class="headerexp">skills</p>
+            </div>
+            <div class="fullthingupper">
+              <p class="nohead">84</p>
+              <p class="headerexp">projects</p>
+            </div>
+            <div class="spacer" style="width: 100%">
+              <p class="nohead">Certification</p>
+              <ul class="unorli">
+                <li class="headerexp">Cisco</li>
+                <li class="headerexp">Fortinet</li>
+                <li class="headerexp">Juniper</li>
+                <li class="headerexp">Space theory</li>
+                <li class="headerexp">Sir MVIT</li>
+                <li class="headerexp">NPS Education</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- our clients -->
+      <div class="ourcli" id="client" style="margin-top: 3rem">
+        <section class="clients-section">
+          <h2 style="margin-bottom: 2.5rem">Our Clients</h2>
+          <div class="clients-logos">
+            <img
+              src="E:/Shreshta-Technologies-main/Shreshta-Technologies-main/img/logos/Logo_of_Twitter.svg.png"
+              alt="Twitter"
+            />
+            <img
+              src="E:/Shreshta-Technologies-main/Shreshta-Technologies-main/img/logos/volvo.jfif"
+              alt="Volvo"
+            />
+            <img
+              src="E:/Shreshta-Technologies-main/Shreshta-Technologies-main/img/logos/Synergy_Logo_Thick_Font-01.svg"
+              alt="Synergy"
+            />
+            <img
+              src="E:/Shreshta-Technologies-main/Shreshta-Technologies-main/img/logos/ntt data.png"
+              alt="NTT Data"
+            />
+          </div>
+        </section>
+      </div>
+
+      <!-- BLOG
+        ================================================== -->
+
+      <!-- FOOTER
+        ================================================== -->
+      <footer
+        id="contactus"
+        class="footer1 bg-img cover-background pt-2-5 pt-sm-6 pt-md-10"
+        data-overlay-dark="8"
+        data-background="img/bg/bg-03.jpg"
+        style="height: -1rem"
+      >
+        <div
+          class="container mb-6 pb-2-5 pb-md-5 border-bottom border-color-light-white"
+        >
+          <h1
+            style="
+              text-align: center;
+              padding-bottom: 1rem;
+              margin-top: -0.5rem;
+            "
+            class="conhed"
+          >
+            Contact Us
+          </h1>
+          <div class="row justify-content-center mt-n1-9">
+            <div
+              class="col-sm-6 col-lg-4 mt-1-9 border-sm-end border-color-light-white"
+            >
+              <div class="text-sm-center">
+                <i class="fas fa-phone-alt text-white fs-2 d-block mb-4"></i>
+                <h3 class="h6 text-white">Phone Number</h3>
+                <span class="text-white opacity9">+91 81 4715 6099</span>
+              </div>
+            </div>
+            <div
+              class="col-sm-6 col-lg-4 mt-1-9 border-lg-end border-color-light-white"
+            >
+              <div class="text-sm-center">
+                <i
+                  class="far fa-envelope-open text-white fs-2 d-block mb-4"
+                ></i>
+                <h3 class="h6 text-white">Email Address</h3>
+                <span class="text-white opacity9"
+                  ><a
+                    href="mailto:sales@shreshtatechnologies.com?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20ask..."
+                    class="text-white opacity9"
+                    >sales@shreshtatechnologies.com</a
+                  ></span
+                >
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mt-1-9">
+              <div class="text-sm-center">
+                <i
+                  class="fas fa-map-marker-alt text-white fs-2 d-block mb-4"
+                ></i>
+                <h3 class="h6 text-white">Location</h3>
+                <span class="text-white opacity9"
+                  >#272, 4th Main, 7th Cross, BSK 3rd stage, Bangalore-560050
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="foogrid container mb-6 pb-2-5 pb-md-5 border-bottom border-color-light-white"
+        >
+          <img
+            src="img/logos/Shreshta_Technologies-01-BG removed (1).png"
+            alt="Shreshta Technologies"
+            style="background-color: #fff"
+          />
+          <p class="text-white mb-1-6 mb-lg-1-9 opacity9">
+            Shreshta Technologies provides cutting-edge network security and IT
+            infrastructure solutions. With over 22 years of experience, we
+            deliver excellence in every project.
+          </p>
+        </div>
+        <div class="container soci">
+          <p class="text-white">
+            &copy; <span class="current-year"></span> Shreshta Technologies. All
+            Rights Reserved.
+          </p>
+          <!-- </div> -->
+          <ul class="footer-social-style1">
+            <li>
+              <a href="#!"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#!"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <!-- BUY TEMPLATE
+    ================================================== -->
+
+    <!-- start scroll to top -->
+    <a href="#!" class="scroll-to-top"
+      ><i class="fas fa-angle-up" aria-hidden="true"></i
+    ></a>
+    <!-- end scroll to top -->
+
+    <!-- all js include start -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- jquery -->
+    <script src="js/core.min.js"></script>
+
+    <!-- search -->
+    <script src="search/search.js"></script>
+
+    <!-- custom scripts -->
+    <script src="js/main.js"></script>
+
+    <!-- form plugins js -->
+    <script src="quform/js/plugins.js"></script>
+
+    <!-- form scripts js -->
+    <script src="quform/js/scripts.js"></script>
+
+    <!-- all js include end -->
+    <script>
+      const card = document.getElementById("card");
+
+      card.addEventListener("mousemove", (e) => {
+        let rect = card.getBoundingClientRect();
+        let x = (e.clientX - rect.left) / rect.width - 0.5;
+        let y = (e.clientY - rect.top) / rect.height - 0.5;
+
+        card.style.transform = `rotateY(${x * 15}deg) rotateX(${y * -15}deg)`;
+      });
+
+      card.addEventListener("mouseleave", () => {
+        card.style.transform = "rotateY(0deg) rotateX(0deg)";
+      });
+    </script>
+  </body>
+</html>
